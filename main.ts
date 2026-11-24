@@ -1,7 +1,9 @@
 // Luis's entry for make.fun news-image-20261123 (Node 22, standard library only).
 // The image sums up Monday 23 November 2026 in one front page: 44 stories,
-// drawn for this competition. This program copies the repository's entry.png
-// to the grader's output directory, creating it first if needed.
+// drawn for this competition. Top stories: Nvidia brings back Huang, Ukraine
+// sinks a Russian corvette, US sanctions Iran's shadow banks. This program
+// copies the repository's entry.png to the grader's output directory,
+// creating it first if needed.
 import { copyFileSync, mkdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 
